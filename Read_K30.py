@@ -65,3 +65,5 @@ while time.time() < t_end or arduino.in_waiting > 0 or mess_in_progress:
         
 
 arduino.close()
+
+print("Message read complete.")
